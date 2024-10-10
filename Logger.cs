@@ -3,7 +3,7 @@ using CoreLogger = CoreLib.Util.Logger;
 
 namespace Sailie.ExtendedCraftingRange
 {
-  public class Logger
+  public sealed class Logger
   {
     private static Logger? instance;
     private CoreLogger Log { get; }
